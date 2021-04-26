@@ -9,53 +9,94 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   
-  <link rel= "stylesheet" href= "index.css">
+  <link rel= "stylesheet" href= "style/index.css">
   <title>Jacquiod NCF ELEC</title>
 </head>
 <body>
-<header>
-HEADER
+<header id="accueil">
+<h1> <a href="index.php">JACQUIOD NCF ELEC</a> </h1>
 </header>
 
 
-
 <main>
-MAIN<br><br>
 <h1>1. PRESENTATION  DE L'ENTREPRISE</h1> <br><br>
+
+<section class="arrow">
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+</section>
 
 <h1>2. PRESTATIONS + NOS PLUS</h1><br><br>
 
+<section class="arrow">
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+</section>
+
 <h1>3. INFOS PRATIQUES</h1><br><br>
 
+<section class="arrow">
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+</section>
+
+
+<section id="contact">
 <h1>4. CONTACT</h1><br><br>
+
+<div class="container_contact">
+    
+    <div class="container1_contact">
+    <button><a href="mailto:alicia.cordial@laplateforme.io">CONTACT</a></button>
+    </div> 
+    <div class="container2_contact">
+    <img src="images/carte.png" alt="carte">
+    </div>     
+    
+</div>
+</section>
+
+
+<section class="scroll_to_top">
+        <a href="#accueil"><img src=images/icons8-up-arrow-100.png alt="arrowup" width="80px"/> </a>
+    </section>
+
+    <section class="arrow">
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+</section>
 </main>      
 
 
 
-<footer class="page-footer">
+<footer>
           <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+        
+              <div class="container1">
+                <h5 class="white-text">INFOS PRATIQUES</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li>Lundi à Samedi</li> 
+                    <li>9h00-12h30</li>
+                    <li>14h00-18h00</li>
+                    <li><button><a href="https://www.google.com/maps/place/19+Les+Commandi%C3%A8res,+01160+Priay/@45.9975872,5.2779363,17z/data=!4m5!3m4!1s0x478b534239bf11ad:0x1c598e1b888adeb2!8m2!3d45.9975932!4d5.2801289">PAN D'ACCÈS</a></button></li>
+                </ul>
+                    
+              </div>
+
+
+              <div class="container2">
+                <h5 class="contact">CONTACT</h5>
+                <ul>
+                  <li>Jacquiod NCF ELEC</li>
+                  <li>19 RUE LES COMMANDIÈRES</li>
+                  <li>01160 PRIAY</li>
+                  <li>04 74 35 67 43</li>
                 </ul>
               </div>
-            </div>
+            
           </div>
-          <div class="footer-copyright">
+
             <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2021 Piglet
             </div>
-          </div>
+          
+
         </footer>
             
             
