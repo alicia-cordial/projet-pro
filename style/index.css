@@ -39,6 +39,7 @@ footer,
     background-image: url(../images/elec.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -54,6 +55,24 @@ footer {
 
 /***********INDEX************/
 
+
+/************PRESENTATION******************/
+
+#presentation {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    background-color: #FFFFCE;
+}
+
+#presentation h2 {
+    text-align: center;
+}
+
+
+/***************CONTACT***************/
+
 #contact {
     background-color: darkblue;
     display: flex;
@@ -61,7 +80,7 @@ footer {
     padding-bottom: 20px;
 }
 
-#contact h1 {
+#contact {
     color: white;
 }
 
@@ -75,6 +94,27 @@ footer {
 .container2_contact {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    padding: 80px;
+    justify-items: center;
+    /*Evite que les éléments prennent tout l'espace dans leur colonne*/
+    justify-content: center;
+    /*Permet de centrer dans l'axe horizontal*/
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .container1_contact,
+    .container2_contact {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 50px;
+        justify-items: center;
+        /*Evite que les éléments prennent tout l'espace dans leur colonne*/
+        justify-content: center;
+        /*Permet de centrer dans l'axe horizontal*/
+    }
 }
 
 #contact img {
@@ -86,14 +126,15 @@ footer {
     color: black;
     text-decoration: none;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: normal;
     line-height: 1.428571429;
     white-space: nowrap;
     cursor: pointer;
     border: 1px solid black;
     box-shadow: 1px 1px 1px black;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 

@@ -14,16 +14,51 @@
 </head>
 <body>
 <header id="accueil">
-<h1> <a href="index.php">JACQUIOD NCF ELEC</a> </h1>
+<a href="index.php"><h1>JACQUIOD NCF ELEC</h1></a>
 </header>
 
 
 <main>
-<h1>1. PRESENTATION  DE L'ENTREPRISE</h1> <br><br>
+<section class="arrow">
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+</section>
+
+<section id="presentation">
+<h1>1. PRESENTATION  DE L'ENTREPRISE</h1>
+<h2>Jacquiod NCF Elec</h2>
+<p>L’entreprise Jacquiod NCF Elec électricien sur Priay vous souhaite la bienvenue sur son site internet. </p>
+<p>Notre expérience et notre savoir faire dans le domaine de l'électricité nous permet de vous guider dans vos choix et de vous conseiller sur la réalisation de vos projets.</p>
+<p>Nous intervenons auprès des particuliers et des professionnels pour toutes installations, rénovation mise en conformité ou dépannage électrique.</p>
+<p>Notre équipe, composée d’électriciens qualifiés, attache une grande importance à la qualité de nos interventions et la satisfaction de nos clients.</p>
+
+<p>Nous sommes certifié QUALIFELEC selon les critères suivant:</p>
+
+<ul>
+  <li>Conformité(administrative, fiscale, sociale),</li>
+  <li>Capacité de réalisation (moyens techniques, effectif et qualifications du personnel),</li>
+  <li>Qualité de référence (de chantiers et de travaux)</li>
+</ul>
+
+
+<p>Nos domaines d’interventions :</p>
+<ul>
+  <li>Electricité</li>
+  <li>Interphone,</li>
+  <li>Alarme,</li>
+  <li>VMC,</li>
+  <li>Réseaux informatique avec certification (fiche recette)</li>
+  <li>Les systèmes de domotique</li>
+</ul>
+</p>
+
+</section>
+
+
 
 <section class="arrow">
     <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
 </section>
+
 
 <h1>2. PRESTATIONS + NOS PLUS</h1><br><br>
 
@@ -31,36 +66,47 @@
     <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
 </section>
 
-<h1>3. INFOS PRATIQUES</h1><br><br>
 
-<section class="arrow">
-    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
-</section>
+
 
 
 <section id="contact">
-<h1>4. CONTACT</h1><br><br>
+<h1>3. CONTACT</h1>
 
 <div class="container_contact">
     
     <div class="container1_contact">
+    <ul>
+      <li>Jacquiod NCF ELEC</li>
+      <li>19 RUE LES COMMANDIÈRES</li>
+      <li>01160 PRIAY</li>
+      <li>04 74 35 67 43</li>
+    </ul>
     <button><a href="mailto:alicia.cordial@laplateforme.io">CONTACT</a></button>
+
     </div> 
+
     <div class="container2_contact">
+    <h2>Où intervient votre artisan électricien ?</h2>
+    <p>L'entreprise Jacquiod, situé à Priay, près de Ambérieu-en-Bugey, possède un atelier à Priay, et se déplace dans un rayon de 50 kilomètres comprenant les villes de Ambérieu-en-Bugey,... pour toutes vos installations et dépannages électriques, chauffages et motorisations</p>
     <img src="images/carte.png" alt="carte">
+    
     </div>     
     
 </div>
 </section>
 
 
-<section class="scroll_to_top">
-        <a href="#accueil"><img src=images/icons8-up-arrow-100.png alt="arrowup" width="80px"/> </a>
-    </section>
 
     <section class="arrow">
     <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
 </section>
+
+
+<section class="scroll_to_top">
+        <a href="#accueil"><img src=images/icons8-up-arrow-100.png alt="arrowup" width="80px"/> </a>
+ </section>
+
 </main>      
 
 
