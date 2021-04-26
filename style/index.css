@@ -7,16 +7,11 @@
     /*border: 1px solid black;*/
 }
 
-body {
+body,
+html {
     min-height: 100vh;
     justify-content: space-between;
     font-family: 'Inconsolata', monospace;
-}
-
-body,
-main,
-article,
-a {
     display: flex;
     flex-direction: column;
 }
@@ -27,6 +22,8 @@ main {
     flex-grow: 2;
     justify-content: space-around;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -39,21 +36,25 @@ footer,
     background-image: url(../images/elec.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
     text-align: center;
 }
 
-footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
 }
 
 
-/***********INDEX************/
+/****************************INDEX**********************************/
 
 
 /************PRESENTATION******************/
@@ -68,6 +69,37 @@ footer {
 
 #presentation h2 {
     text-align: center;
+}
+
+
+/********PRESTATIONS************/
+
+#prestations {
+    text-align: justify;
+    background-color: lightgrey;
+    color: black;
+}
+
+.pres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.nos_plus {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+    .pres {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 
@@ -115,10 +147,18 @@ footer {
         justify-content: center;
         /*Permet de centrer dans l'axe horizontal*/
     }
+    #contact img {
+        border-radius: 20px;
+        width: 400px;
+        height: 400px;
+        justify-self: center;
+    }
 }
 
 #contact img {
     border-radius: 20px;
+    width: 400px;
+    height: 400px;
 }
 
 #contact button {
@@ -189,12 +229,19 @@ footer {
     animation: arrow-jump 1.5s infinite;
 }
 
+
+/*********************FOOTER*******************/
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .text {
     text-align: center;
     font-weight: bold;
     font-size: 2em;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .container {

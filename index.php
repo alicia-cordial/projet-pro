@@ -60,10 +60,36 @@
 </section>
 
 
-<h1>2. PRESTATIONS + NOS PLUS</h1><br><br>
+<section id="prestations">
+
+<h1>2. PRESTATIONS + NOS PLUS</h1>
+
+<section class="pres">
+<article class="prestations"> 
+<h2>PRESTATIONS</h2>
+<ul>
+<li>Un spécialiste de l'installation des dispositifs électriques</li>
+<li>Le dépannage : une prestation clé d'une entreprise d'électricité</li>
+<li>La mise en conformité d'électricité générale et la rénovation : <br>d'autres prestations des entreprises d'électricités</li>
+
+</ul>
+</article>
+
+<article class="nos_plus">
+<h2>NOS PLUS</h2>
+<ul>
+<li>♦ Engagement ♦</li>
+<li>Respect des délais - Suivi des Chantiers - Respect des Normes - Garantie décennale</li><br>
+<li>♦ Service + ♦</li>
+<li>Devis gratuit, détaillé et personnalisé - Service après-vente</li>
+</ul>
+</article>
+</section>
+</section>
+
 
 <section class="arrow">
-    <img src="./images/icons8-expand-arrow-100.png" alt="arrow" width="80px"/>
+    <img src="./images/icons8-expand-arrow-100.png" alt="arrow"/>
 </section>
 
 
@@ -88,9 +114,11 @@
 
     <div class="container2_contact">
     <h2>Où intervient votre artisan électricien ?</h2>
+
+    <section class="contact_2">
     <p>L'entreprise Jacquiod, situé à Priay, près de Ambérieu-en-Bugey, possède un atelier à Priay, et se déplace dans un rayon de 50 kilomètres comprenant les villes de Ambérieu-en-Bugey,... pour toutes vos installations et dépannages électriques, chauffages et motorisations</p>
     <img src="images/carte.png" alt="carte">
-    
+    </section>
     </div>     
     
 </div>
@@ -138,9 +166,7 @@
             
           </div>
 
-            <div class="container">
-            © 2021 Piglet
-            </div>
+     
           
 
         </footer>
