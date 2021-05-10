@@ -31,23 +31,16 @@
 <p>Nous intervenons auprès des particuliers et des professionnels pour toutes installations, rénovation mise en conformité ou dépannage électrique.</p>
 <p>Notre équipe, composée d’électriciens qualifiés, attache une grande importance à la qualité de nos interventions et la satisfaction de nos clients.</p>
 
-<p>Nous sommes certifié QUALIFELEC selon les critères suivant:</p>
-
-<ul>
-  <li>Conformité(administrative, fiscale, sociale),</li>
-  <li>Capacité de réalisation (moyens techniques, effectif et qualifications du personnel),</li>
-  <li>Qualité de référence (de chantiers et de travaux)</li>
-</ul>
 
 
 <p>Nos domaines d’interventions :</p>
 <ul>
-  <li>Electricité</li>
-  <li>Interphone,</li>
-  <li>Alarme,</li>
-  <li>VMC,</li>
-  <li>Réseaux informatique avec certification (fiche recette)</li>
-  <li>Les systèmes de domotique</li>
+  <li>. Electricité,</li>
+  <li>. Interphone,</li>
+  <li>. Alarme,</li>
+  <li>. VMC,</li>
+  <li>. Réseaux informatiques,</li>
+  <li>. Les systèmes de domotique.</li>
 </ul>
 </p>
 
@@ -68,9 +61,11 @@
 <article class="prestations"> 
 <h2>PRESTATIONS</h2>
 <ul>
-<li>Un spécialiste de l'installation des dispositifs électriques</li>
-<li>Le dépannage : une prestation clé d'une entreprise d'électricité</li>
-<li>La mise en conformité d'électricité générale et la rénovation : <br>d'autres prestations des entreprises d'électricités</li>
+<li>. Un spécialiste de l'installation des dispositifs électriques</li>
+<li>. Dépannage</li>
+<li>. Mise en conformité d'électricité générale</li>
+<li>. Rénovation </li>
+<li>. Bâtiments neufs et industriels</li>
 
 </ul>
 </article>
@@ -78,7 +73,7 @@
 <article class="nos_plus">
 <h2>NOS PLUS</h2>
 <ul>
-<li>♦ Engagement ♦</li>
+<li>♦ Engagements ♦</li>
 <li>Respect des délais - Suivi des Chantiers - Respect des Normes - Garantie décennale</li><br>
 <li>♦ Service + ♦</li>
 <li>Devis gratuit, détaillé et personnalisé - Service après-vente</li>
@@ -116,7 +111,7 @@
     <h2>Où intervient votre artisan électricien ?</h2>
 
     <section class="contact_2">
-    <p>L'entreprise Jacquiod, situé à Priay, près de Ambérieu-en-Bugey, possède un atelier à Priay, et se déplace dans un rayon de 50 kilomètres comprenant les villes de Ambérieu-en-Bugey,... pour toutes vos installations et dépannages électriques, chauffages et motorisations</p>
+    <p>L'entreprise Jacquiod, situé à Priay, près de Ambérieu-en-Bugey, possède un atelier à Priay, et se déplace dans un rayon très large autour des villes de Ambérieu-en-Bugey, Bourg-en-Bresse, Lyon pour toutes vos installations et dépannages électriques, chauffages et motorisations</p>
     <img src="images/carte.png" alt="carte">
     </section>
     </div>     
@@ -146,9 +141,8 @@
                 <h5 class="white-text">INFOS PRATIQUES</h5>
                 <ul>
                     <li>Lundi à Samedi</li> 
-                    <li>9h00-12h30</li>
-                    <li>14h00-18h00</li>
-                    <li><button><a href="https://www.google.com/maps/place/19+Les+Commandi%C3%A8res,+01160+Priay/@45.9975872,5.2779363,17z/data=!4m5!3m4!1s0x478b534239bf11ad:0x1c598e1b888adeb2!8m2!3d45.9975932!4d5.2801289">PAN D'ACCÈS</a></button></li>
+                    <li>8h00-18h00</li>
+                    <li><button><a href="https://www.google.com/maps/place/19+Les+Commandi%C3%A8res,+01160+Priay/@45.9975872,5.2779363,17z/data=!4m5!3m4!1s0x478b534239bf11ad:0x1c598e1b888adeb2!8m2!3d45.9975932!4d5.2801289">PLAN D'ACCÈS</a></button></li>
                 </ul>
                     
               </div>
