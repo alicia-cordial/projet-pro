@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  
+    <link rel="short icon" href="images/icons8-symbole-de-fusible-48.png"/>
   <link rel= "stylesheet" href= "style/index.css">
   <title>Jacquiod NCF ELEC</title>
 </head>
